@@ -1,3 +1,5 @@
+f = open("quotes.txt")
+quotes = f.readlines()
 Responsive is better than fast
 It’s not fully shipped until it’s fast
 Anything added dilutes everything else
@@ -12,3 +14,7 @@ Favor focus over features
 Avoid administrative distraction
 Design for failure
 Keep it logically awesome
+
+f.close()
+
+print(quotes)
