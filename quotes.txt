@@ -18,3 +18,5 @@ Keep it logically awesome
 f.close()
 
 print(quotes)
+
+print(quotes[0])
